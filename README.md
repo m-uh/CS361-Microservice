@@ -16,11 +16,13 @@ Download files and open the containing folder. In the terminal, type in these tw
 
 
 Request Data:
+In order to request data from the microservice, the requesting program must provide one of the options from the command menu (1 - 4). 
 
+An example call for this Socket would be:
+socket.connect("tcp://127.0.0.1:33311")
 
-
-Recieve Data:
-
+Receive Data:
+To receive the data from the microservice, it will be sent back over through the Socket Pipeline in JSON format. 
 
 
 
