@@ -27,3 +27,6 @@ Recieve Data:
 Unified Modeling Language (UML) Sequence Diagram:
 
 
+<img width="776" alt="Screenshot 2023-11-21 at 1 48 10 AM" src="https://github.com/m-uh/CS361-Microservice/assets/126530073/5f44aea8-e05b-4669-b00f-2a96122ef9ed">
+
+
