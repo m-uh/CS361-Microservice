@@ -9,9 +9,9 @@ How to Launch:
 
 Download files and open the containing folder. In the terminal, type in these two steps to start the socket:
 
-(1): python3 server1.py
+(1): python3 server.py
 
-(2): python3 client1.py
+(2): python3 client.py
 
 
 
