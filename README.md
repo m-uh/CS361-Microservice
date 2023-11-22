@@ -14,6 +14,7 @@ Download files and open the containing folder. In the terminal, type in these tw
 
 (2): python3 client.py
 
+Note: Ensure you have the .txt files relative path updated in the server file
 
 
 # Request Data:
