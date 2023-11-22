@@ -20,7 +20,9 @@ In order to request data from the microservice, the requesting program must prov
 
 
 An example call for this Socket would be:
-
+# Example call
+send_request("1")  # sends request for Bobs Grocery list
+items = receive_data()  # receive data from server
 
 
 Receive Data:
