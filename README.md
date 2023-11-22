@@ -31,6 +31,20 @@ items = receive_data()     # receive data from server
 To receive the data from the microservice, it will be sent back over through the Socket Pipeline in JSON format. 
 
 
+# How to programmatically REQUEST and RECIEVE data
+To programmatically request and receive data, you can use the provided client and server code. The server code listens for connections and sends the requested data, while the client code connects to the server, sends a request, and receives the data.
+
+Here's a breakdown of the steps:
+
+1) Run the server code on a server machine. (open the terminal and type "python3 server.py")
+2) Run the client code on a client machine. (open the terminal and type "python3 client.py")
+- The client will display a menu of store lists and prompt the user to choose a list.
+3) Type in your choice from the menu.
+- The client will send the user's choice to the server.
+- The server will receive the request, retrieve the corresponding list of items and prices, and send the data back to the client.
+- The client will receive the JSON data from the server, convert it to a dictionary, and print the items and prices.
+
+
 
 # Unified Modeling Language (UML) Sequence Diagram:
 
